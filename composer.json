@@ -1,0 +1,42 @@
+{
+    "name": "chromax/simple-merkele",
+    "description": "package to generate and verify hashs using merkle tree",
+    "keywords": [
+        "chromax",
+        "simple-merkele"
+    ],
+    "homepage": "https://github.com/chromax/simple-merkele",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mohamed Ahmed",
+            "email": "mohamedabdelmenem01@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chromax\\SimpleMerkele\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chromax\\SimpleMerkele\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
