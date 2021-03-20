@@ -1,9 +1,9 @@
 # Very short description of the package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/chromax/simple-merkele.svg?style=flat-square)](https://packagist.org/packages/chromax/simple-merkele)
-[![Build Status](https://img.shields.io/travis/chromax/simple-merkele/master.svg?style=flat-square)](https://travis-ci.org/chromax/simple-merkele)
-[![Quality Score](https://img.shields.io/scrutinizer/g/chromax/simple-merkele.svg?style=flat-square)](https://scrutinizer-ci.com/g/chromax/simple-merkele)
-[![Total Downloads](https://img.shields.io/packagist/dt/chromax/simple-merkele.svg?style=flat-square)](https://packagist.org/packages/chromax/simple-merkele)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mohamedahmed01/simple-merkele.svg?style=flat-square)](https://packagist.org/packages/mohamedahmed01/simple-merkele)
+[![Build Status](https://img.shields.io/travis/mohamedahmed01/simple-merkele/master.svg?style=flat-square)](https://travis-ci.org/mohamedahmed01/simple-merkele)
+[![Quality Score](https://img.shields.io/scrutinizer/g/mohamedahmed01/simple-merkele.svg?style=flat-square)](https://scrutinizer-ci.com/g/mohamedahmed01/simple-merkele)
+[![Total Downloads](https://img.shields.io/packagist/dt/mohamedahmed01/simple-merkele.svg?style=flat-square)](https://packagist.org/packages/mohamedahmed01/simple-merkele)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
@@ -12,7 +12,7 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require chromax/simple-merkele
+composer require mohamedahmed01/simple-merkele
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ If you discover any security related issues, please email mohamedabdelmenem01@gm
 
 ## Credits
 
-- [Mohamed Ahmed](https://github.com/chromax)
+- [Mohamed Ahmed](https://github.com/mohamedahmed01)
 - [All Contributors](../../contributors)
 
 ## License
