@@ -49,9 +49,6 @@ composer test
 
 If you discover any security related issues, please email mohamedabdelmenem01@gmail.com instead of using the issue tracker.
 
-## Credits
-
-- [Mohamed Ahmed](https://github.com/mohamedahmed01)
 
 ## License
 
