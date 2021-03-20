@@ -5,7 +5,8 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/mohamedahmed01/simple-merkele.svg?style=flat-square)](https://scrutinizer-ci.com/g/mohamedahmed01/simple-merkele)
 [![Total Downloads](https://img.shields.io/packagist/dt/mohamedahmed01/simple-merkele.svg?style=flat-square)](https://packagist.org/packages/mohamedahmed01/simple-merkele)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+This is a very simple implemenation to merkle tree in which you can use multiple hashes
+to create a merkele tree and compress it to a single hash .
 
 ## Installation
 
@@ -18,7 +19,21 @@ composer require mohamedahmed01/simple-merkele
 ## Usage
 
 ``` php
-// Usage description here
+        $hashsArray=[
+                hash('sha256', 'hello'),
+                hash('sha256', 'goodbye'),
+                hash('sha256', 'topofthemorning'),
+                hash('sha256', 'sionara'),
+                hash('sha256', 'areviditche'),
+                hash('sha256', 'arregato'),
+            ];
+        $merkele = new SimpleMerkele();
+        foreach ($hashsArray as $hash) {
+            $merkele->addHash($hash);
+        }
+        
+        $merkele->calulateTree(); //9b8dd5dd1f56d5fa17a67c10b8891c57e51f5fd36fe3a2d7e290d605840332d8
+        
 ```
 
 ### Testing
@@ -27,14 +42,6 @@ composer require mohamedahmed01/simple-merkele
 composer test
 ```
 
-### Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
 ### Security
 
 If you discover any security related issues, please email mohamedabdelmenem01@gmail.com instead of using the issue tracker.
@@ -42,12 +49,8 @@ If you discover any security related issues, please email mohamedabdelmenem01@gm
 ## Credits
 
 - [Mohamed Ahmed](https://github.com/mohamedahmed01)
-- [All Contributors](../../contributors)
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-## PHP Package Boilerplate
-
-This package was generated using the [PHP Package Boilerplate](https://laravelpackageboilerplate.com).
