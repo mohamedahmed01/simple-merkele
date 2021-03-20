@@ -1,7 +1,7 @@
 # Very short description of the package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/mohamedahmed01/simple-merkele.svg?style=flat-square)](https://packagist.org/packages/mohamedahmed01/simple-merkele)
-[![Build Status](https://img.shields.io/travis/mohamedahmed01/simple-merkele/master.svg?style=flat-square)](https://travis-ci.org/mohamedahmed01/simple-merkele)
+[![Build Status](https://img.shields.io/travis/mohamedahmed01/simple-merkele/master.svg?style=flat-square)](https://travis-ci.com/mohamedahmed01/simple-merkele)
 [![Quality Score](https://img.shields.io/scrutinizer/g/mohamedahmed01/simple-merkele.svg?style=flat-square)](https://scrutinizer-ci.com/g/mohamedahmed01/simple-merkele)
 [![Total Downloads](https://img.shields.io/packagist/dt/mohamedahmed01/simple-merkele.svg?style=flat-square)](https://packagist.org/packages/mohamedahmed01/simple-merkele)
 
