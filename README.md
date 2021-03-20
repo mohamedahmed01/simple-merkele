@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.com/mohamedahmed01/simple-merkele.svg?branch=main)](https://travis-ci.com/mohamedahmed01/simple-merkele)
 [![Quality Score](https://img.shields.io/scrutinizer/g/mohamedahmed01/simple-merkele.svg?style=flat-square)](https://scrutinizer-ci.com/g/mohamedahmed01/simple-merkele)
 
-This is a very simple implemenation to merkle tree in which you can use multiple hashes
+This is a very simple implemenation of merkle tree in which you can use multiple hashes
 to create a merkele tree and compress it to a single hash .
 
 ## Installation
