@@ -19,20 +19,24 @@ composer require mohamedahmed01/simple-merkele
 ## Usage
 
 ``` php
-        $hashsArray=[
-                hash('sha256', 'hello'),
-                hash('sha256', 'goodbye'),
-                hash('sha256', 'topofthemorning'),
-                hash('sha256', 'sionara'),
-                hash('sha256', 'areviditche'),
-                hash('sha256', 'arregato'),
-            ];
-        $merkele = new SimpleMerkele();
-        foreach ($hashsArray as $hash) {
-            $merkele->addHash($hash);
-        }
-        
-        $merkele->calulateTree(); //9b8dd5dd1f56d5fa17a67c10b8891c57e51f5fd36fe3a2d7e290d605840332d8
+
+    //prepare your array of hashes
+    $hashsArray=[
+            hash('sha256', 'hello'),
+            hash('sha256', 'goodbye'),
+            hash('sha256', 'topofthemorning'),
+            hash('sha256', 'sionara'),
+            hash('sha256', 'areviditche'),
+            hash('sha256', 'arregato'),
+        ];
+    //create new instance of simpleMerkele
+    $merkele = new SimpleMerkele();
+    //add your hashes to the inventory
+    foreach ($hashsArray as $hash) {
+        $merkele->addHash($hash);
+    }
+    //create the top hash
+    $merkele->calulateTree(); //9b8dd5dd1f56d5fa17a67c10b8891c57e51f5fd36fe3a2d7e290d605840332d8
         
 ```
 
