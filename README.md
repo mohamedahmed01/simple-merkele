@@ -1,9 +1,8 @@
-# Very short description of the package
+# Simple Merkele Tree Algorthim Implmenation using PHP
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/mohamedahmed01/simple-merkele.svg?style=flat-square)](https://packagist.org/packages/mohamedahmed01/simple-merkele)
 [![Build Status](https://travis-ci.com/mohamedahmed01/simple-merkele.svg?branch=main)](https://travis-ci.com/mohamedahmed01/simple-merkele)
 [![Quality Score](https://img.shields.io/scrutinizer/g/mohamedahmed01/simple-merkele.svg?style=flat-square)](https://scrutinizer-ci.com/g/mohamedahmed01/simple-merkele)
-[![Total Downloads](https://img.shields.io/packagist/dt/mohamedahmed01/simple-merkele.svg?style=flat-square)](https://packagist.org/packages/mohamedahmed01/simple-merkele)
 
 This is a very simple implemenation to merkle tree in which you can use multiple hashes
 to create a merkele tree and compress it to a single hash .
