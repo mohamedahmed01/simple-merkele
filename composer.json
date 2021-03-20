@@ -1,7 +1,7 @@
 {
     "name": "mohamedahmed01/simple-merkele",
     "description": "package to generate and verify hashs using merkle tree",
-    "version": "1.0.0-beta1",
+    "version": "v1.0.0beta1",
     "keywords": [
         "mohamedahmed01",
         "simple-merkele"
