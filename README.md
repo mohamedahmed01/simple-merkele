@@ -3,6 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/mohamedahmed01/simple-merkele.svg?style=flat-square)](https://packagist.org/packages/mohamedahmed01/simple-merkele#v1.0.0beta1)
 [![Build Status](https://travis-ci.com/mohamedahmed01/simple-merkele.svg?branch=main)](https://travis-ci.com/mohamedahmed01/simple-merkele)
 [![Quality Score](https://img.shields.io/scrutinizer/g/mohamedahmed01/simple-merkele.svg?style=flat-square)](https://scrutinizer-ci.com/g/mohamedahmed01/simple-merkele)
+[![Code Coverage](https://scrutinizer-ci.com/g/mohamedahmed01/simple-merkele/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/mohamedahmed01/simple-merkele/?branch=main)
 
 This is a very simple implemenation of merkle tree in which you can use multiple hashes
 to create a merkele tree and compress it to a single hash .
