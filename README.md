@@ -36,7 +36,7 @@ composer require mohamedahmed01/simple-merkele
         $merkele->addHash($hash);
     }
     //create the top hash
-    $merkele->calulateTree(); //9b8dd5dd1f56d5fa17a67c10b8891c57e51f5fd36fe3a2d7e290d605840332d8
+    $merkele->calculateTree(); //9b8dd5dd1f56d5fa17a67c10b8891c57e51f5fd36fe3a2d7e290d605840332d8
     $merkele->resetTree();
         
 ```
@@ -47,7 +47,7 @@ composer require mohamedahmed01/simple-merkele
 | --- | --- |
 | SimpleMerkele($mode,$algo) | Creates new instance with the specified configuration |
 | addHash($hash) | add hash to the internal inventory not that once added cannot be removed |
-| calculaTree() | create the tree and the top node i.e hash |
+| calculateTree() | create the tree and the top node i.e hash |
 | resetTree() | reset the internal memories to be able to add new hashes and create new tree |
 
 ### Configuration :

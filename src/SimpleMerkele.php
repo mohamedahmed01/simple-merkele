@@ -30,7 +30,7 @@ final class SimpleMerkele
         $this->inventory[]=$hash;
     }
 
-    public function calulateTree():string
+    public function calculateTree():string
     {
         $this->validateInventory();
         $this->reduceTree($this->inventory, []);

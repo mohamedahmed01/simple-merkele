@@ -59,8 +59,8 @@ class SimpleMerkleTest extends TestCase
     public function simpleMerkeleHasCalulateTree()
     {
         $this->assertTrue(
-            method_exists(new SimpleMerkele(), 'calulateTree'),
-            'Class does not have method calulateTree'
+            method_exists(new SimpleMerkele(), 'calculateTree'),
+            'Class does not have method calculateTree'
         );
     }
 
@@ -68,7 +68,7 @@ class SimpleMerkleTest extends TestCase
     public function calulateTreeThrowsExceptionOnEmptyInventory()
     {
         $this->expectException(HashInventoryEmptyException::class);
-        (new SimpleMerkele())->calulateTree();
+        (new SimpleMerkele())->calculateTree();
     }
 
     /** @test */
@@ -77,7 +77,7 @@ class SimpleMerkleTest extends TestCase
         $this->expectException(OddHashInventoryException::class);
         $merkele = new SimpleMerkele(SimpleMerkele::DIS_ALLOW_ODD_ARRAYS);
         $merkele->addHash(hash('sha256', 'hello'));
-        $merkele->calulateTree();
+        $merkele->calculateTree();
     }
 
     /** @test */
@@ -97,7 +97,7 @@ class SimpleMerkleTest extends TestCase
         }
         $this->assertEquals(
             '9b8dd5dd1f56d5fa17a67c10b8891c57e51f5fd36fe3a2d7e290d605840332d8',
-            $merkele->calulateTree()
+            $merkele->calculateTree()
         );
     }
 
@@ -117,7 +117,7 @@ class SimpleMerkleTest extends TestCase
             }
             $this->assertEquals(
                 '77894a7ac0f394835a304b53023bd25bf6c645eab0b1ef81e6636cab971f47e4',
-                $merkele->calulateTree()
+                $merkele->calculateTree()
             );
         }
     /** @test */
@@ -145,8 +145,8 @@ class SimpleMerkleTest extends TestCase
             $merkele->addHash($hash);
         }
 
-        $merkele->calulateTree();
+        $merkele->calculateTree();
         $merkele->resetTree();
-        $merkele->calulateTree();
+        $merkele->calculateTree();
     }
 }
